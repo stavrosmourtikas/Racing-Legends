@@ -222,3 +222,34 @@ p {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .car-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-side {
+    max-width: 100%;
+  }
+
+  .car-description {
+    min-width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+
+  .car-info {
+    padding: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 10px;
+    word-break: break-word;
+  }
+}
