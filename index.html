@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Racing Legends</h1>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#cars">Cars</a>
+            <a href="#comparison">Comparison</a>
+        </nav>
+    </header>
+
+    <!-- CARS SECTION -->
+    <div class="container" id="cars">
+        <h2 class="start">Cars</h2>
+        <select id="car-filter">
+            <option value="all">All</option>
+            <option value="japanese">Japanese</option>
+            <option value="european">European</option>
+        </select>
+        
+        <div class="center"><h2>Japanese</h2></div>
+
+        <!-- R34 -->
+        <div class="car-card" data-type="japanese">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/R34.jpg" alt="Nissan GT-R R34">
+                        <div class="car-info">
+                            <h2>Nissan Skyline GT-R R34</h2>
+                            <ul>
+                                <li>Horsepower: 340HP</li>
+                                <li>0-100: 4.6sec</li>
+                                <li>Year: 1999</li>
+                                <li>Engine: 2.6-liter Twin-Turbocharged inline-6 (RB26DETT)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p>Αν υπάρχει ένα όνομα που κάνει κάθε petrolhead να ανατριχιάζει, αυτό είναι το Nissan GT-R R34. 
+                         Το R34 δεν είναι απλά ένα αυτοκίνητο — είναι ιδεολογία, στάση ζωής, και πάνω απ’ όλα, ένα μηχανολογικό 
+                         αριστούργημα που απέδειξε πως η Ιαπωνία μπορεί να κοντράρει στα ίσια τα ευρωπαϊκά υπεραυτοκίνητα.
+                         Κατασκευασμένο από το 1999 έως το 2002, το R34 είναι η επιτομή της JDM τελειότητας. Στην καρδιά του 
+                         χτυπά ο θρυλικός RB26DETT — ένας 2.6 λίτρων, εξακύλινδρος εν σειρά twin-turbo κινητήρας, που 
+                         εργοστασιακά αποδίδει 280 ίππους (λόγω των τότε περιορισμών στην Ιαπωνία), αλλά στην πραγματικότητα 
+                         κρύβει πολύ παραπάνω δυναμικό. Ένας καλοστημένος RB26 μπορεί εύκολα να ξεπεράσει τα 500+ άλογα χωρίς 
+                         καν να ιδρώσει.Συνδυάζεται με ένα 6-τάχυτο κιβώτιο Getrag και μεταδίδει τη δύναμη μέσω του προηγμένου 
+                         συστήματος τετρακίνησης ATTESA E-TS Pro, που προσφέρει εξαιρετική κατανομή ροπής και σιγουριά σε κάθε 
+                         στροφή. Μαζί με το Super-HICAS (ηλεκτρονικό σύστημα τετραδιεύθυνσης), το R34 δεν είναι απλά γρήγορο στην 
+                         ευθεία — είναι ξυράφι στις στροφές.Στο εσωτερικό, το cockpit μοιάζει με καμπίνα μαχητικού. Η πολυθρύλητη 
+                         οθόνη MFD (Multi-Function Display) στο κέντρο του ταμπλό σου δείχνει τα πάντα — από την πίεση turbo και 
+                         την ροπή, μέχρι θερμοκρασίες και g-forces. Για την εποχή του ήταν διαστημική τεχνολογία.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUPRA -->
+        <div class="car-card" data-type="japanese">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/MK4.jpg" alt="Supra MK4">
+                        <div class="car-info">
+                            <h2>Toyota Supra MK4</h2>
+                            <ul>
+                                <li>Horsepower: 320HP</li>
+                                <li>0-100: 5.2sec</li>
+                                <li>Year: 1993</li>
+                                <li>Engine: 2JZ-GTE 3.0L inline-6, twin-turbocharged</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p>Αν το GT-R R34 είναι ο θρύλος της τετρακίνησης, τότε το Toyota Supra MK4, το αριστούργημα της 
+                         δεκαετίας του '90, είναι ο απόλυτος πισωκίνητος δαίμονας. Ένα αυτοκίνητο που λατρεύτηκε όσο λίγα 
+                         — όχι μόνο από τους αληθινούς petrolheads, αλλά και από κάθε gamer, κινηματογραφόφιλο και dragster 
+                         freak εκεί έξω.Η τέταρτη γενιά Supra (A80), που κυκλοφόρησε από το 1993 έως το 2002, δεν ήταν απλά 
+                         ένα γρήγορο κουπέ. Ήταν ένα statement. Ένα "καθίστε κάτω" προς την Porsche, τη Ferrari και όλο τον 
+                         ευρωπαϊκό στόλο που νόμιζε ότι η Ιαπωνία φτιάχνει μόνο οικογενειακά hatchback.Και κάπου εκεί εμφανίζεται 
+                         ο 2JZ-GTE. Το ιερό δισκοπότηρο των μηχανικών, ο 3.0 λίτρων twin-turbo inline-6 κινητήρας που μπορεί να 
+                         κρατήσει τα 1.000 άλογα και να γελάει σατανικά. Εργοστασιακά; Ναι μεν δηλώνει 280-320 ίππους, αλλά αυτός 
+                         ο αριθμός είναι τόσο "μαγειρεμένος" όσο το setup μιας καλοστημένης Supra σε dyno: κανείς δεν τον παίρνει στα σοβαρά.
+                         Το MK4 ήρθε εξοπλισμένο με 6άρι manual κιβώτιο Getrag V160 (για τους μερακλήδες), αλλά υπήρχε και αυτόματο 
+                         — αν και κανένας αληθινός Supra lover δεν θα το προτιμήσει.Η πίσω κίνηση (RWD), το τέλειο ζύγισμα και η διαστημική 
+                         αξιοπιστία του 2JZ καθιστούν την Supra MK4 ιδανικό καμβά για βελτίωση. Από drag builds μέχρι time attack, 
+                         drift και stance, το A80 Supra έχει γράψει τη δική του, ανεξίτηλη ιστορία.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EVO VI -->
+        <div class="car-card" data-type="japanese">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/EVO.jpg" alt="Mitsubishi EVO VI">
+                        <div class="car-info">
+                            <h2>Mitsubishi Lancer Evolution VI</h2>
+                            <ul>
+                                <li>Horsepower: 276HP</li>
+                                <li>0-100: 4.4sec</li>
+                                <li>Year: 1999</li>
+                                <li>Engine: 2.0L turbo inline-4 (4G63)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p>Αν είσαι αμαξόκαυλος και δεν έχεις καρδιοχτυπήσει ποτέ στο άκουσμα του ήχου ενός Evo που 
+                         σφυρίζει απειλητικά από το blow-off... ε, τότε μάλλον δεν έχεις ζήσει αρκετά. Και ειδικά όταν 
+                         μιλάμε για το Evo VI, μιλάμε για την καθαρόαιμη έκδοση της Mitsubishi που σχεδιάστηκε για να 
+                         καταπίνει στροφές και να εξευτελίζει τετραπλάσιας αξίας supercars.Το Evolution VI έκανε την 
+                         εμφάνισή του το 1999 και δεν ήταν απλά μια εξέλιξη — ήταν κήρυξη πολέμου στην τετράτροχη λογική. 
+                         Χτισμένο πάνω στην ήδη μανιασμένη πλατφόρμα του Evo V, ήρθε με ενισχυμένο μπλοκ, αναβαθμισμένο 
+                         intercooler και καλύτερη ψύξη εμβόλων. Γιατί; Γιατί η Mitsubishi ήξερε ότι όσοι αγοράσουν Evo, 
+                         δεν θα πηγαίνουν βόλτα στην παραλία — θα κυνηγούν κάθε apex λες και παίζουν τη ζωή τους στα 0.1 
+                         δευτερόλεπτα.Στην καρδιά του, ο κλασικός και λατρεμένος 4G63, ένας 2.0 λίτρων turbo inline-4, 
+                         που παρότι επίσημα απέδιδε 276 HP, στην πραγματικότητα προσέφερε πολύ παραπάνω "ψυχή" από αριθμούς. 
+                         Με Active Yaw Control (AYC), τετρακίνηση με μπλοκέ διαφορικά, και μια απόκριση γκαζιού που σε κάνει 
+                         να νομίζεις πως οδηγείς rally car, το Evo VI ήταν το playstation-στο-δρόμο των petrolheads.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- ✅ ΤΕΛΟΣ ΤΟΥ #cars -->
+
+    <!-- COMPARISON SECTION -->
+    <div class="container" id="comparison">
+        <h2 class="border">Σύγκριση Ιαπωνικών</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Horsepower</th>
+                    <th>0-100km/h</th>
+                    <th>Engine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nissan GT-R R34</td>
+                    <td>340HP</td>
+                    <td>4.6sec</td>
+                    <td>2.6-liter twin-turbocharged inline-6 (RB26DETT)</td>
+                </tr>
+                <tr>
+                    <td>Toyota Supra MK4</td>
+                    <td>320HP</td>
+                    <td>5.2sec</td>
+                    <td>2JZ-GTE: Twin-turbocharged, 3.0-liter inline-6</td>
+                </tr>
+                <tr>
+                    <td>Mitsubishi Lancer Evo VI</td>
+                    <td>276HP</td>
+                    <td>4.4sec</td>
+                    <td>2.0-liter turbocharged inline-4 (4G63)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!--EUROPEAN CAR SECTION-->
+
+    <div class="container" id="cars">
+        <h2 class="vag">European</h2>
+        <div class="car-card" data-type="european">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/golf.jpg" alt="Volkswagen Golf GT Sport">
+                        <div class="car-info">
+                            <h2> Volkswagen Golf GT-Sport MK5</h2>
+                            <ul>
+                                <li>Horsepower: 170HP</li>
+                                <li>0-100: 7.9sec</li>
+                                <li>Year: 2007</li>
+                                <li>Engine: 1.4 TSI Twincharged</li>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p>Ρε μάστορα, δεν υπάρχει πιο τίμιο εργαλείο απ’ αυτό.GT Sport, όχι GTI – γιατί εμείς δεν το παίζουμε, 
+                         το κάνουμε.Το ‘χουν παρεξηγήσει πολύ αυτό το αμάξι. Λίγοι ξέρουν τι κουβαλάει – και ακόμα πιο λίγοι έχουν 
+                         οδηγήσει ένα σωστά φτιαγμένο.Αυτό το μοτέρ, ο BMY, δεν είναι απλά ένα 1.4. Είναι τερατάκι κρυφό, με κομπρέσορα 
+                         και τούρμπο μαζί. Δηλαδή, το ένα τραβάει χαμηλά, το άλλο ψηλά, και κενό στο γκάζι δεν υπάρχει ΠΟΥΘΕΝΑ. Πατάς 
+                         και πάει, δεν σκέφτεται καν.Είναι sleeper. Δεν το φωνάζει. Δεν είναι κάγκουρας με φτερό και led-μπλε-τσιχλόφουσκες.
+                         Είναι το αυτοκίνητο που θα κάτσει δίπλα σου, ήσυχο – και θα σε ξεβρακώσει πριν αλλάξεις 2α.Περνάει μπλόκο και 
+                         κανείς δεν γυρνάει να το κοιτάξει.Ανοίγει σε ευθεία, και πας να δεις τι ήταν αυτό που σε ρούφηξε.Και μετά κοιτάς 
+                         πίσω, και βλέπεις... ένα Golf χωρίς τίποτα πάνω.Και τώρα τι;Αν ψάχνεις κάτι να σε πάει Α – Β, πάρε Yaris Hybrid.
+                         Αν θες κάτι να σε βαρέσει στο στέρνο, να σε γδύνει στη 2η, και να χαμογελάς κάθε φορά που το σκάβεις, το GT Sport 
+                         είναι η τίμια η επιλογή.Όχι γιατί είναι το πιο γρήγορο.Αλλά γιατί δεν το περιμένει κανείς. Και τους κάνει όλους 
+                         να το θυμούνται.
+                        </p>
+                        <button onclick="toggleStage2('stage2-golf')" class="stage2-btn">Δες Stage 2 Build</button>
+                        <div id="stage2-golf" style="display: none; margin-top: 20px;">
+                            <h3>Stage 2 Setup – Golf MK5</h3>
+                            <ul>
+                                <li><strong>ECU Remap:</strong> +40HP / +60Nm – βελτιωμένη απόδοση κινητήρα</li>
+                                <li><strong>Downpipe 3"</strong> με sport καταλύτη ή straight pipe για καλύτερη ροή</li>
+                                <li><strong>FMIC:</strong> Front Mount Intercooler για χαμηλότερες θερμοκρασίες αέρα εισαγωγής</li>
+                                <li><strong>Φίλτρο:</strong> Cold Air Intake ή ανοικτό cone φίλτρο για πιο “αέρα”</li>
+                                <li><strong>Dump Valve:</strong> Forge 007/008 – το γνωστό "psshh" ήχος</li>
+                                <li><strong>Clutch:</strong> Ενισχυμένος για μεγαλύτερη αντοχή στην επιπλέον ροπή</li>
+                                <li><strong>Ανάρτηση:</strong> Coilovers για καλύτερο κράτημα και αίσθηση στο δρόμο</li>
+                                <li><strong>Φρένα:</strong> Brembo ή Tarox – για άριστη απόδοση στο φρενάρισμα</li>
+                                <li><strong>0-100:</strong> κάτω από 6.8” (ανάλογα με τις συνθήκες και τα ελαστικά)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SEAT IBIZA CUPRA-->
+        <div class="car-card" data-type="european">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/ibiza.jpg" alt="Seat Ibiza">
+                        <div class="car-info">
+                            <h2> Seat Ibiza Cupra </h2>
+                            <ul>
+                                <li>Horsepower: 180HP</li>
+                                <li>0-100: ~7.2sec</li>
+                                <li>Year: 2007</li>
+                                <li>Engine: 1.8 20VT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p class="paragraph">Αυτό δεν είναι απλά ένα αμάξι. Είναι cult. Είναι εργαλείο. Είναι το αυτοκίνητο που ονειρεύτηκες να έχεις όταν 
+                         έβλεπες τους μεγάλους να σκάνε χειρόφρενα έξω απ’ το φροντιστήριο, κι εσύ ήσουν ακόμα με το ποδήλατο. <strong>Το Ibiza 
+                         Cupra 1.8 20VT</strong>, γεννημένο το 2007, είναι το απόλυτο sleeper. Δεν φωνάζει με φρου-φρου και τσιρότα – τα κάνει όλα 
+                         με <strong>180 άλογα</strong> από το <strong>1.8 λίτρα 20βάλβιδο τούρμπο μοτέρ</strong>, το διαμάντι του VAG, τον θρυλικό EA113 που φορέθηκε σε Audi, 
+                         Golf, Leon και άλλα πολλά.Μπροστοκίνητο με χειροκίνητο πεντάρι σασμάν, σφιχτό σαν γροθιά, που σε κάνει να κατεβάζεις 
+                         απλά και μόνο για να ακούσεις το <strong>pssshh</strong> του dump valve. Η ροπή ξεκινάει από τις 1.950 στροφές και σε πετάει μπροστά, 
+                         σε φάση «τι έγινε ρε παιδιά;». Και πριν καν καταλάβεις τι παίζει, έχεις φτάσει τα 100 από στάση σε κάτι λιγότερο
+                         από <strong>7.5 δευτερόλεπτα</strong>, με την τελική να χτυπάει <strong>225+</strong> , αν το αφήσεις να πάρει ανάσα. Και πίστεψέ με, θέλει να πάρει 
+                         ανάσα.Η ανάρτηση είναι εργοστασιακά πιο σφιχτή απ’ το ηθικό του οδηγού του, και κάθε λακούβα την νιώθεις μέχρι τον 
+                         αυχένα – αλλά αυτό είναι το τίμημα για να «γράφει» το Cupra στις στροφές λες και είσαι σε ράγες. Με 17άρες ζάντες και 
+                         φαρδιά 205άρια λάστιχα, το μικρό Ibiza έχει το πάτημα go-kart. Και τα Brembo μπροστινά φρένα φωνάζουν «ό,τι και να 
+                         κάνεις, εδώ σταματάς».Το αμάξι είναι λιτό. Δεν σου πουλάει πολυτέλεια – σου πουλάει γνήσιο γκάζι. Αν θες μαλακά καθίσματα, 
+                         infotainment και κάμερα οπισθοπορείας, πήγαινε πάρε SUV. Εδώ έχεις ύφασμα, κοντή λεβιέ, πίεση τουρμπίνας και κοντέρ που σου 
+                         θυμίζει ότι η ζωή ξεκινάει μετά τις 3.000 στροφές.Αλλά εκεί που το Ibiza Cupra λάμπει πραγματικά είναι στο πειραγμένο του. 
+                         Με ένα σκέτο πρόγραμμα, πας στα 200-210 άλογα χωρίς να ιδρώσει. Βάλε downpipe, φίλτρο, intercooler και πας σε άλλα επίπεδα.
+                         Με υβριδικό turbo, το μοτέρ αντέχει πολλά, και με τα σωστά στησίματα έχεις μπροστά σου ένα τέρας που απ’ έξω φαίνεται σαν 
+                         αμάξι για φοιτητή.Το 2007 Ibiza Cupra 1.8 20VT δεν είναι για όλους. Είναι για εκείνον που του αρέσει να βγαίνει βόλτα απλά 
+                         για να πατήσει το γκάζι στη στροφή και να χαμογελάσει μόνος του. Είναι για τον τρελό που του λένε «αυτό έχει λίγα κυβικά» 
+                         κι αυτός γελάει, γιατί ξέρει τι κουβαλάει κάτω από το καπό. Είναι για τον καμένο που ακούει turbo spool και σηκώνει 
+                         την ένταση στο μηδέν για να το απολαύσει.Ένα πράγμα είναι σίγουρο: αν έχεις Cupra 20VT και το κρατάς καθαρό και δυνατό, 
+                         δεν έχεις αμάξι. Έχεις ιστορία. Και γράφεις τη δική σου, με κάθε πάτημα του γκαζιού.
+                        </p>
+                        <button onclick="toggleStage2('stage2-ibiza')" class="stage2-btn">Δες Stage 2 Build</button>
+                        <div id="stage2-ibiza" style="display: none; margin-top: 20px;">
+                            <h3>Stage 2 Setup – Cupra 1.8 20VT</h3>
+                            <ul>
+                                <li><strong>ECU Remap:</strong> +50HP / +80Nm – 230 άλογα και βάλε</li>
+                                <li><strong>Downpipe 3"</strong> με sport καταλύτη ή straight pipe</li>
+                                <li><strong>Front Mount Intercooler (FMIC)</strong> – για ψυχρές αναπνοές</li>
+                                <li><strong>Open Cone Φίλτρο</strong> ή Cold Air Intake (RamAir, Forge κ.λπ.)</li>
+                                <li><strong>Dump Valve</strong> (Forge 007 ή 008) – το απόλυτο psssh</li>
+                                <li><strong>Συμπλέκτης ενισχυμένος</strong> – για να αντέχει ροπή</li>
+                                <li><strong>Ανάρτηση & Φρένα:</strong> Coilovers + Brembo ή Ferodo DS</li>
+                                <li><strong>0-100 km/h:</strong> κάτω από 6.5’’ – αν έχεις grip 😎</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BACK TO TOP -->
+    <a href="#top" class="top-button">Επιστροφή στην αρχή</a>
+
+    <!-- SCRIPT: Car Filter -->
+    <script>
+        const filter = document.getElementById('car-filter');
+        const cards = document.querySelectorAll('.car-card');
+        filter.addEventListener('change', () => {
+            const selected = filter.value;
+            cards.forEach(card => {
+                if (selected === 'all' || card.dataset.type === selected) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+        function toggleStage2(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+             }
+        }
+    </script>
+</body>
+</html>
+     
+
+           
+                
+
+        
