@@ -12,22 +12,20 @@
         <nav>
             <a href="#">Main</a>
             <a href="#cars">Cars</a>
-            <a href="#gallery">Gallery</a>
             <a href="#comparison">Comparison</a>
-            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <!-- CARS SECTION -->
     <div class="container" id="cars">
-        <h2>Cars</h2>
+        <h2 class="start">Cars</h2>
         <select id="car-filter">
             <option value="all">All</option>
             <option value="japanese">Japanese</option>
             <option value="european">European</option>
         </select>
-
-        <h2 class="jdm">Japanese</h2>
+        
+        <div class="center"><h2>Japanese</h2></div>
 
         <!-- R34 -->
         <div class="car-card" data-type="japanese">
@@ -137,19 +135,9 @@
         </div>
     </div> <!-- ✅ ΤΕΛΟΣ ΤΟΥ #cars -->
 
-    <!-- GALLERY SECTION -->
-    <div class="container" id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-    </div>
-
     <!-- COMPARISON SECTION -->
     <div class="container" id="comparison">
-        <h2>Σύγκριση Αυτοκινήτων</h2>
+        <h2 class="border">Σύγκριση Ιαπωνικών</h2>
         <table>
             <thead>
                 <tr>
@@ -182,6 +170,119 @@
         </table>
     </div>
 
+
+    <!--EUROPEAN CAR SECTION-->
+
+    <div class="container" id="cars">
+        <h2 class="vag">European</h2>
+        <div class="car-card" data-type="european">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/golf.jpg" alt="Volkswagen Golf GT Sport">
+                        <div class="car-info">
+                            <h2> Volkswagen Golf GT-Sport MK5</h2>
+                            <ul>
+                                <li>Horsepower: 170HP</li>
+                                <li>0-100: 7.9sec</li>
+                                <li>Year: 2007</li>
+                                <li>Engine: 1.4 TSI Twincharged</li>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p>Ρε μάστορα, δεν υπάρχει πιο τίμιο εργαλείο απ’ αυτό.GT Sport, όχι GTI – γιατί εμείς δεν το παίζουμε, 
+                         το κάνουμε.Το ‘χουν παρεξηγήσει πολύ αυτό το αμάξι. Λίγοι ξέρουν τι κουβαλάει – και ακόμα πιο λίγοι έχουν 
+                         οδηγήσει ένα σωστά φτιαγμένο.Αυτό το μοτέρ, ο BMY, δεν είναι απλά ένα 1.4. Είναι τερατάκι κρυφό, με κομπρέσορα 
+                         και τούρμπο μαζί. Δηλαδή, το ένα τραβάει χαμηλά, το άλλο ψηλά, και κενό στο γκάζι δεν υπάρχει ΠΟΥΘΕΝΑ. Πατάς 
+                         και πάει, δεν σκέφτεται καν.Είναι sleeper. Δεν το φωνάζει. Δεν είναι κάγκουρας με φτερό και led-μπλε-τσιχλόφουσκες.
+                         Είναι το αυτοκίνητο που θα κάτσει δίπλα σου, ήσυχο – και θα σε ξεβρακώσει πριν αλλάξεις 2α.Περνάει μπλόκο και 
+                         κανείς δεν γυρνάει να το κοιτάξει.Ανοίγει σε ευθεία, και πας να δεις τι ήταν αυτό που σε ρούφηξε.Και μετά κοιτάς 
+                         πίσω, και βλέπεις... ένα Golf χωρίς τίποτα πάνω.Και τώρα τι;Αν ψάχνεις κάτι να σε πάει Α – Β, πάρε Yaris Hybrid.
+                         Αν θες κάτι να σε βαρέσει στο στέρνο, να σε γδύνει στη 2η, και να χαμογελάς κάθε φορά που το σκάβεις, το GT Sport 
+                         είναι η τίμια η επιλογή.Όχι γιατί είναι το πιο γρήγορο.Αλλά γιατί δεν το περιμένει κανείς. Και τους κάνει όλους 
+                         να το θυμούνται.
+                        </p>
+                        <button onclick="toggleStage2()" class="stage2-btn">Δες Stage 2 Build</button>
+                        <div id="stage2-content" style="display: none; margin-top: 20px;">
+                            <h3>Stage 2 Setup – Golf MK5</h3>
+                            <ul>
+                                <li><strong>ECU Remap:</strong> +40HP / +60Nm – βελτιωμένη απόδοση κινητήρα</li>
+                                <li><strong>Downpipe 3"</strong> με sport καταλύτη ή straight pipe για καλύτερη ροή</li>
+                                <li><strong>FMIC:</strong> Front Mount Intercooler για χαμηλότερες θερμοκρασίες αέρα εισαγωγής</li>
+                                <li><strong>Φίλτρο:</strong> Cold Air Intake ή ανοικτό cone φίλτρο για πιο “αέρα”</li>
+                                <li><strong>Dump Valve:</strong> Forge 007/008 – το γνωστό "psshh" ήχος</li>
+                                <li><strong>Clutch:</strong> Ενισχυμένος για μεγαλύτερη αντοχή στην επιπλέον ροπή</li>
+                                <li><strong>Ανάρτηση:</strong> Coilovers για καλύτερο κράτημα και αίσθηση στο δρόμο</li>
+                                <li><strong>Φρένα:</strong> Brembo ή Tarox – για άριστη απόδοση στο φρενάρισμα</li>
+                                <li><strong>0-100:</strong> κάτω από 6.8” (ανάλογα με τις συνθήκες και τα ελαστικά)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SEAT IBIZA CUPRA-->
+        <div class="car-card" data-type="european">
+            <div class="car-container">
+                <div class="car-layout">
+                    <div class="left-side">
+                        <img src="images/ibiza.jpg" alt="Seat Ibiza">
+                        <div class="car-info">
+                            <h2> Seat Ibiza Cupra </h2>
+                            <ul>
+                                <li>Horsepower: 180HP</li>
+                                <li>0-100: ~7.2sec</li>
+                                <li>Year: 2007</li>
+                                <li>Engine: 1.8 20VT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="car-description">
+                        <p class="paragraph">Αυτό δεν είναι απλά ένα αμάξι. Είναι cult. Είναι εργαλείο. Είναι το αυτοκίνητο που ονειρεύτηκες να έχεις όταν 
+                         έβλεπες τους μεγάλους να σκάνε χειρόφρενα έξω απ’ το φροντιστήριο, κι εσύ ήσουν ακόμα με το ποδήλατο. <strong>Το Ibiza 
+                         Cupra 1.8 20VT</strong>, γεννημένο το 2007, είναι το απόλυτο sleeper. Δεν φωνάζει με φρου-φρου και τσιρότα – τα κάνει όλα 
+                         με <strong>180 άλογα</strong> από το <strong>1.8 λίτρα 20βάλβιδο τούρμπο μοτέρ</strong>, το διαμάντι του VAG, τον θρυλικό EA113 που φορέθηκε σε Audi, 
+                         Golf, Leon και άλλα πολλά.Μπροστοκίνητο με χειροκίνητο πεντάρι σασμάν, σφιχτό σαν γροθιά, που σε κάνει να κατεβάζεις 
+                         απλά και μόνο για να ακούσεις το <strong>pssshh</strong> του dump valve. Η ροπή ξεκινάει από τις 1.950 στροφές και σε πετάει μπροστά, 
+                         σε φάση «τι έγινε ρε παιδιά;». Και πριν καν καταλάβεις τι παίζει, έχεις φτάσει τα 100 από στάση σε κάτι λιγότερο
+                         από <strong>7.5 δευτερόλεπτα</strong>, με την τελική να χτυπάει <strong>225+</strong> , αν το αφήσεις να πάρει ανάσα. Και πίστεψέ με, θέλει να πάρει 
+                         ανάσα.Η ανάρτηση είναι εργοστασιακά πιο σφιχτή απ’ το ηθικό του οδηγού του, και κάθε λακούβα την νιώθεις μέχρι τον 
+                         αυχένα – αλλά αυτό είναι το τίμημα για να «γράφει» το Cupra στις στροφές λες και είσαι σε ράγες. Με 17άρες ζάντες και 
+                         φαρδιά 205άρια λάστιχα, το μικρό Ibiza έχει το πάτημα go-kart. Και τα Brembo μπροστινά φρένα φωνάζουν «ό,τι και να 
+                         κάνεις, εδώ σταματάς».Το αμάξι είναι λιτό. Δεν σου πουλάει πολυτέλεια – σου πουλάει γνήσιο γκάζι. Αν θες μαλακά καθίσματα, 
+                         infotainment και κάμερα οπισθοπορείας, πήγαινε πάρε SUV. Εδώ έχεις ύφασμα, κοντή λεβιέ, πίεση τουρμπίνας και κοντέρ που σου 
+                         θυμίζει ότι η ζωή ξεκινάει μετά τις 3.000 στροφές.Αλλά εκεί που το Ibiza Cupra λάμπει πραγματικά είναι στο πειραγμένο του. 
+                         Με ένα σκέτο πρόγραμμα, πας στα 200-210 άλογα χωρίς να ιδρώσει. Βάλε downpipe, φίλτρο, intercooler και πας σε άλλα επίπεδα.
+                         Με υβριδικό turbo, το μοτέρ αντέχει πολλά, και με τα σωστά στησίματα έχεις μπροστά σου ένα τέρας που απ’ έξω φαίνεται σαν 
+                         αμάξι για φοιτητή.Το 2007 Ibiza Cupra 1.8 20VT δεν είναι για όλους. Είναι για εκείνον που του αρέσει να βγαίνει βόλτα απλά 
+                         για να πατήσει το γκάζι στη στροφή και να χαμογελάσει μόνος του. Είναι για τον τρελό που του λένε «αυτό έχει λίγα κυβικά» 
+                         κι αυτός γελάει, γιατί ξέρει τι κουβαλάει κάτω από το καπό. Είναι για τον καμένο που ακούει turbo spool και σηκώνει 
+                         την ένταση στο μηδέν για να το απολαύσει.Ένα πράγμα είναι σίγουρο: αν έχεις Cupra 20VT και το κρατάς καθαρό και δυνατό, 
+                         δεν έχεις αμάξι. Έχεις ιστορία. Και γράφεις τη δική σου, με κάθε πάτημα του γκαζιού.
+                        </p>
+                        <button onclick="toggleStage2()" class="stage2-btn">Δες Stage 2 Build</button>
+                        <div id="stage2-content" style="display: none; margin-top: 20px;">
+                            <h3>Stage 2 Setup – Cupra 1.8 20VT</h3>
+                            <ul>
+                                <li><strong>ECU Remap:</strong> +50HP / +80Nm – 230 άλογα και βάλε</li>
+                                <li><strong>Downpipe 3"</strong> με sport καταλύτη ή straight pipe</li>
+                                <li><strong>Front Mount Intercooler (FMIC)</strong> – για ψυχρές αναπνοές</li>
+                                <li><strong>Open Cone Φίλτρο</strong> ή Cold Air Intake (RamAir, Forge κ.λπ.)</li>
+                                <li><strong>Dump Valve</strong> (Forge 007 ή 008) – το απόλυτο psssh</li>
+                                <li><strong>Συμπλέκτης ενισχυμένος</strong> – για να αντέχει ροπή</li>
+                                <li><strong>Ανάρτηση & Φρένα:</strong> Coilovers + Brembo ή Ferodo DS</li>
+                                <li><strong>0-100 km/h:</strong> κάτω από 6.5’’ – αν έχεις grip 😎</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- BACK TO TOP -->
     <a href="#top" class="top-button">Επιστροφή στην αρχή</a>
 
@@ -199,6 +300,14 @@
                 }
             });
         });
+        function toggleStage2() {
+        const content = document.getElementById('stage2-content');
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+        } else {
+            content.style.display = 'none';
+        }
+    }
     </script>
 </body>
 </html>
